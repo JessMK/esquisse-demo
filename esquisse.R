@@ -84,8 +84,10 @@ ggplot(WorldPop) +
                                   hjust = 0.5))
 
 
-# viz 3
+# viz 3, open in a browser
 esquisser(USGapminder)
+
+#esquisser(USGapminder, viewer = "browser")
 
 # viz 3
 esquisser(gapminder)
